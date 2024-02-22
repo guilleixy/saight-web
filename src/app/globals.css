@@ -80,6 +80,10 @@ body {
 
 }
 
+.grid-item-heigth{
+  height: 33rem;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
