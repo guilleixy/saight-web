@@ -11,7 +11,7 @@ export default function BentoGrid(){
                 <div className="flex flex-col gap-8 w-full py-28">
                     <div className="flex flex-wrap gap-8 grid-item-heigth md:flex-nowrap">
                         <article className="w-full md:w-2/3 bg-gradient-1 rounded-3xl p-6">
-                            que esta pasando
+                            holaa
                         </article>
                         <article className="w-full md:w-1/3 bg-gradient-2 rounded-3xl p-6 flex justify-end items-end">
                             articulo 2
@@ -35,7 +35,7 @@ export default function BentoGrid(){
             </section>    
             <section>
                 <Chip variant="bordered"><h2>FAQs</h2></Chip>
-                aqui pongo preguntas frecuentes no se que mas poner la verdad
+                aqui pongo preguntas frecuentes porque no se que mas poner la verdad
             </section>    
         </div>
 

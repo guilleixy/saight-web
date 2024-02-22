@@ -6,7 +6,7 @@ export default function Hero(){
     const menuItems = [
         "Características",
         "Desarrollo",
-        "FAW",
+        "FAQs",
         "por Guillermo Bernal",
     ];
     return(
@@ -35,7 +35,7 @@ export default function Hero(){
                 </NavbarItem>
                 <NavbarItem>
                 <Link color="foreground" href="#">
-                    FAQ
+                    FAQs
                 </Link>
                 </NavbarItem>
             </NavbarContent>
