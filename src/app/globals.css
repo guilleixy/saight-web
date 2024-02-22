@@ -9,6 +9,7 @@
   --primary: rgb(22, 27, 34);
   --secondary: rgb(110, 118, 129);
   --tertiary: rgba(31, 209, 253, 0.6);
+  --strong-primary: #0f1319
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -82,6 +83,14 @@ body {
 
 .grid-item-heigth{
   height: 33rem;
+}
+
+.bg-strong-primary{
+  background: var(--strong-primary);
+}
+
+.bg-card-primary{
+  background: #0a0c0f;
 }
 
 @layer utilities {
