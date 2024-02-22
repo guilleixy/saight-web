@@ -93,6 +93,11 @@ body {
   background: #0a0c0f;
 }
 
+.bg-third-section{
+  background: url('/gradient-5.jpg');
+  background-size: cover; 
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

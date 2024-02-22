@@ -42,7 +42,7 @@ export default function BentoGrid(){
                         <h4>Dato</h4>
                         <p>Cosa del dato</p>
                     </div>           
-                    <div className="backdrop-blur-sm rounded-3xl grow bg-card-primary border-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50">
+                    <div className="backdrop-blur-sm rounded-3xl grow border-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50">
                         <h4>Dato</h4>
                         <p>Cosa del dato</p>
                     </div>    
@@ -53,15 +53,31 @@ export default function BentoGrid(){
                 </div>
                 <Image src={"/productivity-bg-1.webp"} alt="Decoration" height={225} width={471} className="absolute bottom-0"/>
             </section>            
-            <section>
+            <section className="md:px-24 px-11 flex flex-col">
                 <Chip variant="bordered"><h2>Desarrollo</h2></Chip>
-                aqui cuento como se hizo/como funciona
+                <article>
+                    <div>
+                        <h3>Detección de objetos</h3>
+                        <p>(texto explicativo de la detección de objetos)</p>
+                    </div>
+                    <div>
+                        (imagen de la detección de objetos)
+                    </div>
+                </article>
+                <article>
+                    <div>
+                        <h3>Control por voz</h3>
+                        <p>(texto explicativo del control por voz)</p>
+                    </div>
+                    <div>
+                        (imagen del control por voz)
+                    </div>
+                </article>
             </section>    
-            <section>
+            <section className="md:px-24 px-11 flex flex-col bg-third-section h-screen">
                 <Chip variant="bordered"><h2>FAQs</h2></Chip>
                 aqui pongo preguntas frecuentes porque no se que mas poner la verdad
             </section>    
         </div>
-
     )
 }
