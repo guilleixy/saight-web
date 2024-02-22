@@ -2,7 +2,7 @@ import {Chip} from "@nextui-org/react";
 
 export default function BentoGrid(){
     return(
-        <div className="py-44 w-full max-w-screen-2xl px-24">
+        <div className="py-44 w-full max-w-screen-2xl md:px-24 px-11">
             <section className="">
                 <Chip variant="bordered"><h2>Características</h2></Chip>
                 <h3 className="text-2xl">
