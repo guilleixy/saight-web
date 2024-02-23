@@ -24,12 +24,12 @@ export default function Hero(){
             </NavbarContent>
             <NavbarContent className="hidden sm:flex gap-4" justify="center">
                 <NavbarItem>
-                <Link color="foreground" href="#">
+                <Link color="foreground" href="#caracteristicas">
                     Características
                 </Link>
                 </NavbarItem>
                 <NavbarItem isActive>
-                <Link href="#" aria-current="page">
+                <Link href="#desarrollo" aria-current="page">
                     Desarrollo
                 </Link>
                 </NavbarItem>

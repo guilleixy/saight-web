@@ -5,14 +5,14 @@ export default function Detection({color, src, text, id, name, height, width, cl
     return(
         <div className={`${classes} text-black`}>
             <div className='margin-0 flex'>
-                <p className={`bg-${color} margin-0 pr-2`}>{id}</p>
-                <p className={`bg-${color} margin-0 pr-2`}> {name}</p>
-                <p className={`bg-${color} margin-0`}>{randomNumber}</p>
+                <p className={`bg-${color} bg-purple-600 margin-0 pr-2`}>{id}</p>
+                <p className={`bg-${color} bg-purple-600 margin-0 pr-2`}> {name}</p>
+                <p className={`bg-${color} bg-purple-600 margin-0`}>{randomNumber}</p>
             </div>
             {src ? (
-                <Image height={height} width={width} src={src} alt={name} className={`border-${color} border-solid border-3 p-2`} draggable="false"/>
+                <Image height={height} width={width} src={src} alt={name} className={`border-${color} border-solid border-3 p-2 border-purple-600`} draggable="false"/>
             ) : (
-                <div className={`border-${color} border-solid border-3 p-2 text-white`}>{text}</div>
+                <div className={`border-${color} border-solid border-3 p-2 text-white border-purple-600`}>{text}</div>
             )}
         </div>
     )
