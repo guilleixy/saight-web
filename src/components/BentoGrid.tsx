@@ -30,25 +30,35 @@ export default function BentoGrid(){
                         <article className="w-full md:w-3/5 bg-gradient-4 rounded-3xl p-6">articulo4</article>
                     </div>
                     <article className="w-full bg-gradient-5 grid-item-heigth rounded-3xl p-6">
-                        articulo 5
+                        <h4>
+                            Detección de objetos avanzada
+                        </h4>
+                        <p></p>
                     </article>             
                 </div>
 
             </section> 
             <section className="w-full md:px-24 px-11 py-16 bg-strong-primary relative">
-                <h3>Algo de algo</h3>
-                <div className="flex gap-6 my-10 h-72 flex-wrap">
-                    <div className="backdrop-blur-sm rounded-3xl grow border-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50">
-                        <h4>Dato</h4>
-                        <p>Cosa del dato</p>
+                <h3>Más características</h3>
+                <h4>De la detección de objetos avanzada</h4>
+                <div className="flex my-10 flex-wrap gap-6 md:flex-nowrap">
+                    <div className="backdrop-blur-sm rounded-3xl md:w-1/3 w-full border-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50">
+                        <h4>Búsqueda de rostros</h4>
+                        <p>
+                            Buscar coincidencias con rostros almacenados.
+                        </p>
                     </div>           
-                    <div className="backdrop-blur-sm rounded-3xl grow border-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50">
-                        <h4>Dato</h4>
-                        <p>Cosa del dato</p>
+                    <div className="backdrop-blur-sm rounded-3xl md:w-1/3 w-full border-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50">
+                        <h4>Análisis facial</h4>
+                        <p>
+                            Análisis de emociones, edad, género, etc. 
+                        </p>
                     </div>    
-                    <div className="backdrop-blur-sm rounded-3xl grow bg-card-pr-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50">
-                        <h4>Dato</h4>
-                        <p>Cosa del dato</p>
+                    <div className="backdrop-blur-sm rounded-3xl md:w-1/3 w-full bg-card-pr-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50">
+                        <h4>Texto en imágenes</h4>
+                        <p>
+                            Capaz de extraer texto de imágenes reales como carteles, camisetas, etc.
+                        </p>
                     </div>             
                 </div>
                 <Image src={"/productivity-bg-1.webp"} alt="Decoration" height={225} width={471} className="absolute bottom-0"/>
