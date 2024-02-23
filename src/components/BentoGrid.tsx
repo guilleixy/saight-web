@@ -8,18 +8,18 @@ export default function BentoGrid(){
              {/* w-full max-w-screen-2xl */}
             <section className="md:px-24 px-11 w-full">
                 <Chip variant="bordered"><h2 className="text-xl p-2">Características</h2></Chip>
-                <h3 className="text-6xl py-3">
+                <h3 className="md:text-6xl py-3 text-3xl">
                     Qué ofrece SAIGTH
                 </h3>
                 <div className="flex flex-col gap-8 w-full py-28">
                     <div className="flex flex-wrap gap-8 grid-item-heigth md:flex-nowrap">
                         <article className="w-full md:w-3/5 bg-gradient-1 rounded-3xl p-12">
-                            <h4 className="text-4xl">
+                            <h4 className="md:text-4xl text-2xl">
                                 Detección de objetos en tiempo real
                             </h4>
                         </article>
                         <article className="w-full md:w-2/5 bg-gradient-2 rounded-3xl flex justify-end flex-col p-12">
-                            <h4 className="text-4xl py-2">
+                            <h4 className="md:text-4xl text-2xl py-2">
                                 Control mediante comandos de voz
                             </h4>
                             <p className="text-gray-400 text-xl">Asistente personal con ChatGPT integrado</p>
@@ -33,7 +33,7 @@ export default function BentoGrid(){
                     </div>
                     <article className="w-full bg-black grid-item-heigth rounded-3xl p-12 flex">
                         <div className="grow">
-                            <h4 className="text-4xl">
+                            <h4 className="md:text-4xl text-2xl">
                                 Detección de objetos avanzada
                             </h4>
                             <p></p>                            
@@ -50,7 +50,7 @@ export default function BentoGrid(){
 
             </section> 
             <section className="w-full md:px-24 px-11 py-16 bg-strong-primary relative">
-                <h3 className="text-6xl z-10 relative">Más características</h3>
+                <h3 className="md:text-6xl text-3xl z-10 relative">Más características</h3>
                 <h4 className="py-2 text-gray-400 z-10 relative">De la detección de objetos avanzada</h4>
                 <div className="flex my-10 flex-wrap gap-6 md:flex-nowrap">
                     <div className="backdrop-blur-sm rounded-3xl md:w-1/3 w-full border-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50">
