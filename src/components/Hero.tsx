@@ -63,7 +63,7 @@ export default function Hero(){
         </Navbar>
         <div className="h-screen w-full flex justify-center items-center">
             <h1 className="text-5xl text-center">
-                <span className="bg-gradient-to-r from-purple-200 to-blue-100 text-transparent bg-clip-text">
+                <span className="bg-gradient-to-tr from-green-200 via-purple-300 to-blue-200 text-transparent bg-clip-text">
                     sAIgth
                 </span>
                 <br />

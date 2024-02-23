@@ -2,6 +2,7 @@ import {Chip} from "@nextui-org/react";
 import { Image as Img } from "@nextui-org/react";
 import Image from "next/image";
 import Detection from "./Detection";
+import CardWrapper from "./Bento/CardWrapper";
 
 export default function BentoGrid(){
     return(
@@ -45,7 +46,7 @@ export default function BentoGrid(){
                             </h4>
                             <p></p>                            
                         </div>
-                        <Detection height={150} width={200} x="left-0" y="-bottom-4" color="purple-500" src="/space-robot-cat.png" id="1" name="Cat"/>
+                        <Detection height={150} width={200} color="purple-500" src="/space-robot-cat.png" id="1" name="Cat" classes="absolute -bottom-4 left-0"/>
                         <Img
                         className="roundex-3xl"
                         width={600}
@@ -57,32 +58,7 @@ export default function BentoGrid(){
                 </div>
 
             </section> 
-            <section className="w-full md:px-24 px-11 py-16 bg-strong-primary relative">
-                <h3 className="md:text-6xl text-3xl z-10 relative">Más características</h3>
-                <h4 className="py-2 text-gray-400 z-10 relative">De la detección de objetos avanzada</h4>
-                <div className="flex my-10 flex-wrap gap-6 md:flex-nowrap">
-                    <div className="backdrop-blur-sm rounded-3xl md:w-1/3 w-full border-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50">
-                        <h4>Búsqueda de rostros</h4>
-                        <p>
-                            Buscar coincidencias con rostros almacenados.
-                        </p>
-                    </div>           
-                    <div className="backdrop-blur-sm rounded-3xl md:w-1/3 w-full border-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50">
-                        <h4>Análisis facial</h4>
-                        <p>
-                            Análisis de emociones, edad, género, etc. 
-                        </p>
-                    </div>    
-                    <div className="backdrop-blur-sm rounded-3xl md:w-1/3 w-full bg-card-pr-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50">
-                        <h4>Texto en imágenes</h4>
-                        <p>
-                            Capaz de extraer texto de imágenes reales como carteles, camisetas, etc.
-                        </p>
-                    </div>             
-                </div>
-                <Image src={"/productivity-bg-2.webp"} alt="Decoration" height={225} width={471} className="absolute top-0 left-0 z-0"/>
-                <Image src={"/productivity-bg-1.webp"} alt="Decoration" height={225} width={471} className="absolute bottom-0 z-0"/>
-            </section>            
+            <CardWrapper />        
             <section className="md:px-24 px-11 flex flex-col py-44">
                 <Chip variant="bordered"><h2 className="text-xl p-2">Desarrollo</h2></Chip>
                 <h3 className="md:text-6xl py-3 text-3xl">
