@@ -15,7 +15,7 @@ export default function BentoWrapper(){
         <section ref={ref} id="caracteristicas" className="md:px-24 px-11 w-full pt-20">
             <Chip variant="bordered"><h2 className="text-xl p-2">Características</h2></Chip>
             <h3 className="md:text-6xl py-3 text-3xl">
-                Qué ofrece SAIGTH
+                Qué ofrece SAIGHT
             </h3>
             <div className="flex flex-col gap-8 w-full py-28">
                 <div className="flex flex-wrap gap-8 grid-item-heigth md:flex-nowrap">

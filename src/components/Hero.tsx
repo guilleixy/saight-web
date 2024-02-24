@@ -19,7 +19,7 @@ export default function Hero(){
                 />
                 <NavbarBrand>
                 {/* <AcmeLogo /> */}
-                <p className="font-bold text-inherit">SAIGTH</p>
+                <p className="font-bold text-inherit">SAIGHT</p>
                 </NavbarBrand>
             </NavbarContent>
             <NavbarContent className="hidden sm:flex gap-4" justify="center">
@@ -64,7 +64,7 @@ export default function Hero(){
         <div className="h-screen w-full flex justify-center items-center">
             <h1 className="text-5xl text-center">
                 <span className="bg-gradient-to-tr from-green-200 via-purple-300 to-blue-200 text-transparent bg-clip-text">
-                    sAIgth
+                    sAIght
                 </span>
                 <br />
                 (aqui el eslogan)

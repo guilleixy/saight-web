@@ -14,7 +14,7 @@ export default function BentoGrid(){
             <section id="desarrollo" className="md:px-24 px-11 flex flex-col py-44">
                 <Chip variant="bordered"><h2 className="text-xl p-2">Desarrollo</h2></Chip>
                 <h3 className="md:text-6xl py-3 text-3xl">
-                    Cómo se creó SAIGTH
+                    Cómo se creó SAIGHT
                 </h3>
                 <article>
                     <div>
