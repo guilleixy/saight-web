@@ -103,3 +103,15 @@ body {
     text-wrap: balance;
   }
 }
+@keyframes dash {
+  from {
+    stroke-dashoffset: -10;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+button:hover svg path {
+  animation: dash 0.2s linear forwards;
+}
