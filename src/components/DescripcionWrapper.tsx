@@ -12,7 +12,7 @@ export default function DescripcionWrapper(){
                         Qué es SAIGHT
                     </h3>
                     <div className="flex justify-center items-center h-full">
-                        <div className="bg-dark-light rounded-xl w-1/2 p-10">
+                        <div className="bg-dark-light rounded-xl md:w-1/2 md:p-10">
                             <p>
                                 <span className="bg-gradient-to-tr text-transparent bg-clip-text from-blue-500 via-purple-500 to-purple-400">SAIGHT</span> es una aplicación desarrollada en Python 
                                 diseñada para ayudar a personas con discapacidades 
@@ -23,11 +23,11 @@ export default function DescripcionWrapper(){
                         </div>
                     </div>
                 </div>
-                <img src="/gradientcover.svg" alt="Gradient cover" className="w-full absolute bottom-0 left-0"/>
+                <img draggable="false" src="/gradientcover.svg" alt="Gradient cover" className="w-full absolute bottom-0 left-0"/>
             </article>
             <article className="bg-dark-primary md:px-24 px-11">
                 <h3>¿Cómo lo hace?</h3>
-                <div className="flex gap-7 py-32">
+                <div className="flex gap-7 py-32 flex-wrap md:flex-nowrap items-center justify-center">
                     <div className="flex flex-col bg-gray-dark rounded-xl p-12 border-solid border-1 border-white/10">
                         <div>
                             <div className="bg-purple-800/70 rounded-full text-purple-300 inline-flex p-2 aspect-square">
