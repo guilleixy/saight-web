@@ -14,7 +14,8 @@ export default function DescripcionWrapper(){
                     <div className="flex justify-center items-center h-full">
                         <div className="bg-dark-light rounded-xl md:w-1/2 md:p-10">
                             <p>
-                                <span className="bg-gradient-to-tr text-transparent bg-clip-text from-blue-500 via-purple-500 to-purple-400">SAIGHT</span> es una aplicación desarrollada en Python 
+                                <span className="bg-gradient-to-tr text-transparent bg-clip-text from-blue-500 via-purple-500 to-purple-400">SAIGHT</span> es una aplicación desarrollada en 
+                                <span className="bg-gradient-to-tl from-yellow-400 to-blue-400 text-transparent bg-clip-text"> Python </span>
                                 diseñada para ayudar a personas con discapacidades 
                                 visuales. Utiliza el poder de la Inteligencia Artificial (IA) 
                                 para detectar objetos en tiempo real, proporcionando retroalimentación 
