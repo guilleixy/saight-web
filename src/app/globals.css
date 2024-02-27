@@ -98,6 +98,21 @@ body {
   background-size: cover; 
 }
 
+.bg-dark-primary{
+  background: #0d1117;
+  /* background: rgb(13,17,23);
+background: linear-gradient(180deg, rgba(13,17,23,1) 83%, rgba(17,17,17,0) 100%); */
+}
+
+.bg-dark-light{
+  background: #191a30;
+
+}
+
+.bg-gray-dark{
+  background: #161b22;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -112,6 +127,19 @@ body {
   }
 }
 
-button:hover svg path {
+@keyframes dash-reverse {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -10;
+  }
+}
+
+a svg path {
+  animation: dash-reverse 0.2s linear forwards;
+}
+
+a:hover svg path {
   animation: dash 0.2s linear forwards;
 }

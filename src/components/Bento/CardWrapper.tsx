@@ -17,7 +17,7 @@ export default function CardWrapper(){
                         opacity: isInView ? 1 : 0,
                         transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s"
                         }}
-                    className="backdrop-blur-md hover:backdrop-blur-sm rounded-3xl md:w-1/3 w-full border-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50 pb-24">
+                    className="backdrop-blur-md hover:backdrop-blur-sm rounded-3xl md:w-1/3 w-full  border-solid border-1 border-white/10 p-12 z-10 bg-black bg-opacity-50 pb-24">
                     <h4 className='md:text-4xl text-2xl'>Búsqueda de rostros</h4>
                     <p className='text-gray-300 py-8'>
                         Buscar coincidencias con rostros almacenados.
@@ -29,7 +29,7 @@ export default function CardWrapper(){
                         opacity: isInView ? 1 : 0,
                         transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.8s"
                         }} 
-                    className="backdrop-blur-sm rounded-3xl md:w-1/3 w-full border-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50 pb-24">
+                    className="backdrop-blur-sm rounded-3xl md:w-1/3 w-full border-solid border-1 border-white/10 p-12 z-10 bg-black bg-opacity-50 pb-24">
                     <h4 className='md:text-4xl text-2xl'>Análisis facial</h4>
                     <p className='text-gray-300 py-8'>
                         Análisis de emociones, edad, género, etc. 
@@ -41,7 +41,7 @@ export default function CardWrapper(){
                         opacity: isInView ? 1 : 0,
                         transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1.3s"
                         }} 
-                    className="backdrop-blur-sm rounded-3xl md:w-1/3 w-full bg-card-pr-solid border-gray-700 p-12 z-10 bg-black bg-opacity-50 pb-24">
+                    className="backdrop-blur-sm rounded-3xl md:w-1/3 w-full bg-card-pr-solid  border-solid border-1 border-white/10 p-12 z-10 bg-black bg-opacity-50 pb-24">
                     <h4 className='md:text-4xl text-2xl'>Texto en imágenes</h4>
                     <p className='text-gray-300 py-8'>
                         Capaz de extraer texto de imágenes reales como carteles, camisetas, etc.

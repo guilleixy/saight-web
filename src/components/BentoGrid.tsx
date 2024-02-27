@@ -34,11 +34,7 @@ export default function BentoGrid(){
                         (imagen del control por voz)
                     </div>
                 </article>
-            </section>    
-            <section className="md:px-24 px-11 flex flex-col bg-third-section h-screen">
-                <Chip variant="bordered"><h2>FAQs</h2></Chip>
-                aqui pongo preguntas frecuentes porque no se que mas poner la verdad
-            </section>    
+            </section>       
         </div>
     )
 }
