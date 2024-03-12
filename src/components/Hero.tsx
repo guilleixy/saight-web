@@ -13,7 +13,7 @@ export default function Hero(){
         "por Guillermo Bernal",
     ];
     return(
-        <header className="bg-hero-gradient relative">
+        <header className="bg-hero-gradient h-lvh relative bg-bottom">
         <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll className="bg-black-100">
             <NavbarContent>
                 <NavbarMenuToggle
@@ -82,11 +82,11 @@ export default function Hero(){
                 </svg>
             </Link>
         </div>          
-        <div className="h-screen w-full flex justify-center items-center md:px-10 px:10">
+        {/* <div className="h-screen w-full flex justify-center items-center md:px-10 px:10">
             <HeroVideo />
-        </div>  
+        </div>   */}
         <HeroCarrousel />
-        <Detection color="green-400" src="/space-robot-ai.png" id="1" name="Robot" height={100} width={300} classes="absolute -bottom-6 right-10"/>
+        {/* <Detection color="green-400" src="/space-robot-ai.png" id="1" name="Robot" height={100} width={300} classes="absolute -bottom-6 right-10"/> */}
         </header>
 
     )

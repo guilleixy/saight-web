@@ -4,6 +4,7 @@ import Image from "next/image";
 import Detection from "./Detection";
 import CardWrapper from "./Bento/CardWrapper";
 import BentoWrapper from "./Bento/BentoWrapper";
+import DesarrolloComponent from "./DesarrolloComponent";
 
 export default function BentoGrid(){
     return(
@@ -16,24 +17,27 @@ export default function BentoGrid(){
                 <h3 className="md:text-6xl py-3 text-3xl">
                     Cómo se creó SAIGHT
                 </h3>
-                <article>
-                    <div>
-                        <h3>Detección de objetos</h3>
-                        <p>(texto explicativo de la detección de objetos)</p>
-                    </div>
-                    <div>
-                        (imagen de la detección de objetos)
-                    </div>
-                </article>
-                <article>
-                    <div>
-                        <h3>Control por voz</h3>
-                        <p>(texto explicativo del control por voz)</p>
-                    </div>
-                    <div>
-                        (imagen del control por voz)
-                    </div>
-                </article>
+                <DesarrolloComponent 
+                    titulo="Detección de objetos"
+                    descripcion="Usando el modelo YOLOv8 ."
+                    img="/yoloexample2.png"
+                    direction={true}
+                    id="detection"
+                />
+                <DesarrolloComponent 
+                    titulo="Síntesis de voz"
+                    descripcion="Usando el modelo YOLOv8 ."
+                    img="/yoloexample2.png"
+                    direction={false}
+                    id="tts"
+                />
+                <DesarrolloComponent 
+                    titulo="Detección de voz"
+                    descripcion="Usando el modelo YOLOv8 ."
+                    img="/yoloexample2.png"
+                    direction={true}
+                    id="stt"
+                />
             </section>       
         </div>
     )

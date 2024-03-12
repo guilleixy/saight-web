@@ -81,7 +81,7 @@ export default function BentoWrapper(){
                         </h4>
                         <p></p>                            
                     </div>
-                    <Detection height={150} width={200} color="purple-500" src="/space-robot-cat.png" id="1" name="Cat" classes="absolute -bottom-4 left-0"/>
+                    {/* <Detection height={150} width={200} color="purple-500" src="/space-robot-cat.png" id="1" name="Cat" classes="absolute -bottom-4 left-0"/> */}
                     <Img
                     className="roundex-3xl"
                     width={600}
