@@ -29,6 +29,7 @@ export default function BentoWrapper(){
                         <h4 className="md:text-4xl text-2xl">
                             Detección de objetos en tiempo real
                         </h4>
+                        <p className="text-gray-200 text-xl">A través de la cámara del móvil identifica cosas del entorno</p>
                     </article>
                     <article className="w-full md:w-2/5 bg-gradient-2 rounded-3xl flex justify-end flex-col p-12"
                         style={{
@@ -55,6 +56,7 @@ export default function BentoWrapper(){
                         <h4 className="md:text-4xl text-2xl">
                             Síntesis de voz con Text to Speech
                         </h4>
+                        <p className="text-gray-400 text-xl">Saight genera una respuesta por voz al instante</p>
                     </article>
                     <article className="w-full md:w-3/5 bg-gradient-4 rounded-3xl p-12"
                         style={{
@@ -66,6 +68,7 @@ export default function BentoWrapper(){
                         <h4 className="md:text-4xl text-2xl">
                             Transcripción de voz a texto en tiempo real
                         </h4>
+                        <p className="text-gray-200 text-xl">Detecta e interpreta lo que dices</p>
                     </article>
                 </div>
                 <article className="w-full bg-black grid-item-heigth rounded-3xl gap-6 p-12 flex relative"
@@ -79,7 +82,7 @@ export default function BentoWrapper(){
                         <h4 className="md:text-4xl text-2xl">
                             Detección de objetos avanzada
                         </h4>
-                        <p></p>                            
+                        <p className="text-gray-400 text-xl">Permite analizar detalladamente frames</p>                           
                     </div>
                     {/* <Detection height={150} width={200} color="purple-500" src="/space-robot-cat.png" id="1" name="Cat" classes="absolute -bottom-4 left-0"/> */}
                     <Img

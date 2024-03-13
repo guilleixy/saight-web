@@ -12,12 +12,12 @@ export default function DescripcionWrapper(){
                         Qué es SAIGHT
                     </h3>
                     <div className="flex justify-center items-center h-full">
-                        <div className="bg-dark-light rounded-xl md:w-1/2 md:p-10">
+                        <div className="bg-dark-light rounded-xl md:w-1/2 md:p-10 p-5 mb-10">
                             <p>
                                 <span className="bg-gradient-to-tr text-transparent bg-clip-text from-blue-500 via-purple-500 to-purple-400">SAIGHT</span> es una aplicación desarrollada en 
                                 <span className="bg-gradient-to-tl from-yellow-400 to-blue-400 text-transparent bg-clip-text"> Python </span>
                                 diseñada para ayudar a personas con discapacidades 
-                                visuales. Utiliza el poder de la Inteligencia Artificial (IA) 
+                                visuales. Utiliza el poder de la Inteligencia Artificial
                                 para detectar objetos en tiempo real, proporcionando retroalimentación 
                                 auditiva sobre el entorno.
                             </p>
@@ -26,8 +26,8 @@ export default function DescripcionWrapper(){
                 </div>
                 <img draggable="false" src="/gradientcover.svg" alt="Gradient cover" className="w-full absolute bottom-0 left-0"/>
             </article>
-            <article className="bg-dark-primary md:px-24 px-11">
-                <h3>¿Cómo lo hace?</h3>
+            <article className="bg-dark-primary md:px-24 px-11 pt-12">
+                <Chip variant="bordered"><h3>¿Cómo lo hace?</h3></Chip>
                 <div className="flex gap-7 py-32 flex-wrap md:flex-nowrap items-center justify-center">
                     <div className="flex flex-col bg-gray-dark rounded-xl p-12 border-solid border-1 border-white/10">
                         <div>

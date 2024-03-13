@@ -74,6 +74,7 @@ export default function Hero(){
                 <br />
                 <span className="text-7xl">Descubre sin límites</span>
             </h1>
+            <h2 className="text-4xl">un mundo más accesible</h2>
             <Link className="text-black bg-white rounded-md px-10 py-2 mt-5 flex items-center justify-center group hover:cursor-pointer">
                 Quiero saber más
                 <svg className="ml-2 transition-transform duration-200 ease-in-out transform group-hover:translate-x-2" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false" data-testid="Button-expandable-arrow">

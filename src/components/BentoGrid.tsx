@@ -19,21 +19,25 @@ export default function BentoGrid(){
                 </h3>
                 <DesarrolloComponent 
                     titulo="Detección de objetos"
-                    descripcion="Usando el modelo YOLOv8."
+                    descripcion="Usando el modelo YOLOv8, logramos obtener una gran cantidad de detecciones
+                    fiables en tiempo real. Este modelo nos permite flexibilidad al contar con varias opciones
+                    de mayor o menor peso y la posibilidad de entrenar con datos propios."
                     img="/yoloexample2.png"
                     direction={true}
                     id="detection"
                 />
                 <DesarrolloComponent 
                     titulo="Síntesis de voz"
-                    descripcion="Usando la librería pyttsx3."
+                    descripcion="Usando la librería pyttsx3 conseguimos una síntesis de voz ajustable en cuanto a velocidad
+                    de idiomas y ligera. Esto es vital para que pueda ser soportada por dispositivos móviles con poca capacidad de computación."
                     img="/yoloexample2.png"
                     direction={false}
                     id="tts"
                 />
                 <DesarrolloComponent 
                     titulo="Detección de voz"
-                    descripcion="Usando Speech Recognition de Google."
+                    descripcion="Usar Speech Recognition de Google nos brinda un análisi de voz extremadamente preciso. Al usar
+                    una API la carga de trabajo se reduce y se puede utilizar en cualquier dispositivo con conexión a internet."
                     img="/voicestt.jpg"
                     direction={true}
                     id="stt"

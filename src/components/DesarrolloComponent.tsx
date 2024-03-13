@@ -2,8 +2,8 @@ import Image from 'next/image';
 
 export default function DesarrolloComponent({ titulo, descripcion, img, direction, id }: { titulo: string, descripcion: string, img: string, direction: boolean, id: string }) {
     return (
-        <article id={id} className={`flex justify-between items-center ${direction ? 'flex-row-reverse' : ''}`}>
-            <div className='border border-l-0 border-r-0 border-white p-2 rounded-2xl py-24'>
+        <article id={id} className={`flex justify-between items-center md:flex-nowrap flex-wrap ${direction ? 'flex-row-reverse' : ''}`}>
+            <div className=''>
                 <h3 className="text-5xl">{titulo}</h3>
                 <p className='text-gray-300'>{descripcion}</p>
             </div>

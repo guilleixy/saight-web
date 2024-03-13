@@ -20,7 +20,7 @@ export default function CardWrapper(){
                     className="backdrop-blur-md hover:backdrop-blur-sm rounded-3xl md:w-1/3 w-full  border-solid border-1 border-white/10 p-12 z-10 bg-black bg-opacity-50 pb-24">
                     <h4 className='md:text-4xl text-2xl'>Búsqueda de rostros</h4>
                     <p className='text-gray-300 py-8'>
-                        Buscar coincidencias con rostros almacenados.
+                        Puede buscar rostros de personas reconocidas o famosos.
                     </p>
                 </div>           
                 <div
