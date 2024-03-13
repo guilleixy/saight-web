@@ -85,7 +85,7 @@ export default function Hero(){
         {/* <div className="h-screen w-full flex justify-center items-center md:px-10 px:10">
             <HeroVideo />
         </div>   */}
-        <HeroCarrousel />
+        {/* <HeroCarrousel /> */}
         {/* <Detection color="green-400" src="/space-robot-ai.png" id="1" name="Robot" height={100} width={300} classes="absolute -bottom-6 right-10"/> */}
         </header>
 

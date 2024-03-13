@@ -19,22 +19,22 @@ export default function BentoGrid(){
                 </h3>
                 <DesarrolloComponent 
                     titulo="Detección de objetos"
-                    descripcion="Usando el modelo YOLOv8 ."
+                    descripcion="Usando el modelo YOLOv8."
                     img="/yoloexample2.png"
                     direction={true}
                     id="detection"
                 />
                 <DesarrolloComponent 
                     titulo="Síntesis de voz"
-                    descripcion="Usando el modelo YOLOv8 ."
+                    descripcion="Usando la librería pyttsx3."
                     img="/yoloexample2.png"
                     direction={false}
                     id="tts"
                 />
                 <DesarrolloComponent 
                     titulo="Detección de voz"
-                    descripcion="Usando el modelo YOLOv8 ."
-                    img="/yoloexample2.png"
+                    descripcion="Usando Speech Recognition de Google."
+                    img="/voicestt.jpg"
                     direction={true}
                     id="stt"
                 />

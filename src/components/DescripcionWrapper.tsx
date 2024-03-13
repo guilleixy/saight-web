@@ -57,7 +57,7 @@ export default function DescripcionWrapper(){
                         <h4 className="pt-3">Retroalimentación</h4>
                         <p className="text-gray-300 pt-5">
                             Proporciona retroalimentación auditiva sobre los 
-                            objetos detectados con pyttsx3.
+                            objetos detectados.
                         </p>
                         <Link href="#tts" className="flex items-center pt-12 group hover:cursor-pointer text-blue-400">
                             Saber más
@@ -76,7 +76,7 @@ export default function DescripcionWrapper(){
                         <h4 className="pt-3">Control</h4>
                         <p className="text-gray-300 pt-5">
                             Permite al usuario controlar la aplicación con 
-                            comandos de voz con Speech Recognition.
+                            comandos de voz.
                         </p>
                         <Link href="#caracteristicas" className="flex items-center pt-12 group hover:cursor-pointer text-blue-400">
                             Saber más
