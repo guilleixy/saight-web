@@ -8,7 +8,7 @@ import DesarrolloComponent from "./DesarrolloComponent";
 
 export default function BentoGrid(){
     return(
-        <div className="py-44">
+        <div className="pt-40">
              {/* w-full max-w-screen-2xl */}
             <BentoWrapper />
             <CardWrapper />        
