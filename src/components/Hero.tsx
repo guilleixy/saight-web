@@ -20,7 +20,7 @@ export default function Hero(){
     ]
     return(
         <header className="bg-hero-gradient h-lvh relative bg-bottom">
-        <Navbar onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll className="bg-black-100">
+        <Navbar isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll className="bg-black-100">
             <NavbarContent>
                 <NavbarMenuToggle
                 aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -58,13 +58,13 @@ export default function Hero(){
                 <NavbarMenuItem key={`${item}-${index}`}>
                     <Link
                     color={
-                        index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
+                        "foreground"
+                        // index === 2 ? "primary" : index === menuItems.length - 1 ? "success" : "foreground"
                     }
                     className="w-full"
                     href={menuLinks[index]}
                     size="lg"
                     onClick={(event) => {
-                        event.stopPropagation();
                         setIsMenuOpen(false);
                     }}
                     >
