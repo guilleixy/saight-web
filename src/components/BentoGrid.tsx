@@ -30,7 +30,7 @@ export default function BentoGrid(){
                     titulo="Síntesis de voz"
                     descripcion="Usando la librería pyttsx3 conseguimos una síntesis de voz ajustable en cuanto a velocidad
                     de idiomas y ligera. Esto es vital para que pueda ser soportada por dispositivos móviles con poca capacidad de computación."
-                    img="/yoloexample2.png"
+                    img="/listeningphone.avif"
                     direction={false}
                     id="tts"
                 />
@@ -38,7 +38,7 @@ export default function BentoGrid(){
                     titulo="Detección de voz"
                     descripcion="Usar Speech Recognition de Google nos brinda un análisi de voz extremadamente preciso. Al usar
                     una API la carga de trabajo se reduce y se puede utilizar en cualquier dispositivo con conexión a internet."
-                    img="/voicestt.jpg"
+                    img="/talkingphone.avif"
                     direction={true}
                     id="stt"
                 />

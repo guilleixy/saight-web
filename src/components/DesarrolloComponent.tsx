@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 export default function DesarrolloComponent({ titulo, descripcion, img, direction, id }: { titulo: string, descripcion: string, img: string, direction: boolean, id: string }) {
     return (
-        <article id={id} className={`flex justify-between items-center md:flex-nowrap flex-wrap ${direction ? 'flex-row-reverse' : ''}`}>
-            <div className=''>
+        <article id={id} className={`flex justify-between items-center py-20 md:flex-nowrap flex-wrap ${direction ? 'flex-row-reverse' : ''}`}>
+            <div className='md:w-1/2 md:py-5 py-10'>
                 <h3 className="text-5xl">{titulo}</h3>
-                <p className='text-gray-300'>{descripcion}</p>
+                <p className='text-gray-300 md:py-5 py-10'>{descripcion}</p>
             </div>
             <div className='border border-l-0 border-r-0 border-white p-2 rounded-2xl'>
                 <Image className='rounded-2xl brightness-125' src={img} alt="yolo" width={550} height={550}/> 
