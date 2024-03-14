@@ -19,7 +19,7 @@ export default function Hero(){
         "https://www.gbernal.dev/"
     ]
     return(
-        <header className="bg-hero-gradient h-lvh relative bg-bottom">
+        <header className="bg-hero-gradient h-lvh relative bg-bottom overflow-x-hidden">
         <Navbar isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen} shouldHideOnScroll className="bg-black-100">
             <NavbarContent>
                 <NavbarMenuToggle
