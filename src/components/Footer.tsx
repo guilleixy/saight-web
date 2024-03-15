@@ -17,7 +17,7 @@ export default function Footer(){
             </div>
 
             <ul className="flex gap-6">
-                <li><Link className="text-blue-200" href={"www.linkedin.com/in/guillermo-bernal-b0515b285"} target="_blank"><Linkedin className="inline-block"/>  </Link></li>
+                <li><Link className="text-blue-200" href={"https://www.linkedin.com/in/guillermo-bernal-b0515b285"} target="_blank"><Linkedin className="inline-block"/>  </Link></li>
                 <li><Link className="text-blue-200" href={"https://www.gbernal.dev/"} target="_blank"><GitHub className="inline-block"/>  </Link></li>
             </ul>
         </footer>
