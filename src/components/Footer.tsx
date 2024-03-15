@@ -3,6 +3,7 @@ import Detection from "./Detection";
 import { Linkedin, GitHub } from "react-feather";
 
 export default function Footer(){
+    
     return(
         <footer className="flex justify-between relative md:px-24 px-11 py-10 bg-black overflow-x-hidden">
             {/* <Detection color="purple-500" text="Guillermo Bernal" id="1" name="Autor" classes=""/> */}
