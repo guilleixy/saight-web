@@ -42,6 +42,24 @@ export default function BentoGrid(){
                     direction={true}
                     id="stt"
                 />
+                <DesarrolloComponent 
+                    titulo="Asistente con ChatGPT"
+                    descripcion="Implementando la API de ChatGPT conseguimos combinar la IA generativa más popular con nuestra aplicación.
+                    Esto nos permite tener conversaciones naturales con la aplicación. Además, la fusión de estas tecnologías nos permite avanzar un paso
+                    más en la implementación de estas tecnologías, permitiendo que ChatGPT nos dé mejores respuestas al ser consciente de nuestro entorno."
+                    img="/chatgpt.jpg"
+                    direction={false}
+                    id="gpt"
+                />
+                <DesarrolloComponent 
+                    titulo="AWS Rekognition"
+                    descripcion="Amazon Web Services ofrece tecnologías de analisis de imágenes avanzado. Con AWS Rekognition somos capaces
+                    de analizar una imágen de diferentes formas para obtener toda la información posible. Entre todas estas posibilidades, somos capaces de detectar y analizar
+                    texto en fotos, analizar rostros para determinar rasgos faciales y emociones y analizar caras para determinar si son algún personaje famoso."
+                    img="/aws.jpg"
+                    direction={true}
+                    id="aws"
+                />             
             </section>       
         </div>
     )

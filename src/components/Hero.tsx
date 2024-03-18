@@ -50,7 +50,7 @@ export default function Hero(){
             </NavbarContent>
             <NavbarContent justify="end">
                 <NavbarItem className="hidden lg:flex">
-                    <Link href="#">Guillermo Bernal</Link>
+                    <Link href="https://www.linkedin.com/in/guillermo-bernal-b0515b285/" target="_blank">Guillermo Bernal</Link>
                 </NavbarItem>
             </NavbarContent>
             <NavbarMenu className="bg-black-100">
