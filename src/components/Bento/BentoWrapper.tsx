@@ -58,7 +58,7 @@ export default function BentoWrapper(){
                         </h4>
                         <p className="text-gray-400 text-xl">Saight genera una respuesta por voz al instante</p>
                     </article>
-                    <article className="w-full md:w-3/5 bg-gradient-4 rounded-3xl p-12"
+                    <article className="w-full md:w-3/5 bg-gradient-1 rounded-3xl p-12"
                         style={{
                             transform: isInView ? "none" : "translateX(-100px)",
                             opacity: isInView ? 1 : 0,
@@ -71,7 +71,7 @@ export default function BentoWrapper(){
                         <p className="text-gray-200 text-xl">Detecta e interpreta lo que dices</p>
                     </article>
                 </div>
-                <article className="w-full bg-black grid-item-heigth rounded-3xl gap-6 p-12 flex relative"
+                <article className="w-full bg-black grid-item-heigth rounded-3xl gap-6 p-12 flex relative md:flex-nowrap flex-wrap"
                     style={{
                         transform: isInView ? "none" : "translateX(-100px)",
                         opacity: isInView ? 1 : 0,
@@ -82,15 +82,15 @@ export default function BentoWrapper(){
                         <h4 className="md:text-4xl text-2xl">
                             Detección de objetos avanzada
                         </h4>
-                        <p className="text-gray-400 text-xl">Permite analizar detalladamente frames</p>                           
+                        <p className="text-gray-400 text-xl">Permite analizar detalladamente frames gracias a la tecnología de Amazon Rekognition</p>                           
                     </div>
                     {/* <Detection height={150} width={200} color="purple-500" src="/space-robot-cat.png" id="1" name="Cat" classes="absolute -bottom-4 left-0"/> */}
                     <Img
                     className="roundex-3xl"
-                    width={600}
-                    height={400}
+                    width={800}
+                    height={600}
                     alt="Rekognition Example Image"
-                    src={"/rekognition2.jpg"}
+                    src={"/saightdemo2.jpg"}
                     />
                 </article>             
             </div>
