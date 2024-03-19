@@ -61,12 +61,12 @@ body {
 }
 
 .bg-gradient-2{
-  background: url('/gradient2.2.png');
+  background: url('/gradient2.3.png');
   background-size: cover;
 }
 
 .bg-gradient-3{
-  background: url('/gradient-3.webp');
+  background: url('/gradient2.3.png');
   background-size: cover;
 }
 
