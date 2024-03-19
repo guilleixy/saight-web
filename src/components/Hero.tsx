@@ -75,7 +75,7 @@ export default function Hero(){
             </NavbarMenu>
         </Navbar>
         <div className="w-full flex justify-center items-center md:h-auto h-full md:pt-64 md:pb-20 flex-col overflow-y-hidden">
-            <h1 className="text-5xl text-center">
+            <h1 className="md:text-5xl text-center text-3xl">
                 S
                 <span className="bg-gradient-to-tr from-blue-500 via-purple-500 to-purple-400 text-transparent bg-clip-text">
                     AI
@@ -84,7 +84,7 @@ export default function Hero(){
                 <br />
                 <span className="text-7xl">Descubre sin límites</span>
             </h1>
-            <h2 className="text-4xl text-center">un mundo más accesible</h2>
+            <h2 className="md:text-4xl text-center text-2xl">un mundo más accesible</h2>
             <Link href="#descripcion" className="text-black bg-white rounded-md px-10 py-2 mt-5 flex items-center justify-center group hover:cursor-pointer">
                 Quiero saber más
                 <svg className="ml-2 transition-transform duration-200 ease-in-out transform group-hover:translate-x-2" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false" data-testid="Button-expandable-arrow">
