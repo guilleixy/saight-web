@@ -19,7 +19,7 @@ export default function BentoWrapper(){
             </h3>
             <div className="flex flex-col gap-8 w-full py-28">
                 <div className="flex flex-wrap gap-8 grid-item-heigth md:flex-nowrap">
-                    <article className="w-full md:w-3/5 bg-gradient-1 rounded-3xl p-12"
+                    <article className="w-full md:w-3/5 bg-gradient-1 rounded-3xl p-8 md:p-12"
                         style={{
                             transform: isInView ? "none" : "translateX(-100px)",
                             opacity: isInView ? 1 : 0,
@@ -31,7 +31,7 @@ export default function BentoWrapper(){
                         </h4>
                         <p className="text-gray-200 text-xl">A través de la cámara del móvil identifica cosas del entorno</p>
                     </article>
-                    <article className="w-full md:w-2/5 bg-gradient-2 rounded-3xl flex justify-end flex-col p-12"
+                    <article className="w-full md:w-2/5 bg-gradient-2 rounded-3xl flex justify-end flex-col p-8 md:p-12"
                         style={{
                             transform: isInView ? "none" : "translateX(-100px)",
                             opacity: isInView ? 1 : 0,
@@ -46,7 +46,7 @@ export default function BentoWrapper(){
                     </article>
                 </div>
                 <div className="flex flex-wrap gap-8 grid-item-heigth md:flex-nowrap">
-                    <article className="w-full md:w-2/5 bg-gradient-3 rounded-3xl p-12 flex flex-col justify-end"
+                    <article className="w-full md:w-2/5 bg-gradient-3 rounded-3xl p-8 md:p-12 flex flex-col justify-end"
                         style={{
                             transform: isInView ? "none" : "translateX(-100px)",
                             opacity: isInView ? 1 : 0,
@@ -58,7 +58,7 @@ export default function BentoWrapper(){
                         </h4>
                         <p className="text-gray-400 text-xl">Saight genera una respuesta por voz al instante</p>
                     </article>
-                    <article className="w-full md:w-3/5 bg-gradient-1 rounded-3xl p-12"
+                    <article className="w-full md:w-3/5 bg-gradient-1 rounded-3xl p-8 md:p-12"
                         style={{
                             transform: isInView ? "none" : "translateX(-100px)",
                             opacity: isInView ? 1 : 0,
@@ -71,7 +71,7 @@ export default function BentoWrapper(){
                         <p className="text-gray-200 text-xl">Detecta e interpreta lo que dices</p>
                     </article>
                 </div>
-                <article className="w-full bg-black grid-item-heigth rounded-3xl gap-6 p-12 flex relative md:flex-nowrap flex-wrap"
+                <article className="w-full bg-black grid-item-heigth rounded-3xl gap-6 p-8 md:p-12 flex relative md:flex-nowrap flex-wrap"
                     style={{
                         transform: isInView ? "none" : "translateX(-100px)",
                         opacity: isInView ? 1 : 0,
